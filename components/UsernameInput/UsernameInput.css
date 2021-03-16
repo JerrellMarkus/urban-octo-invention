@@ -1,0 +1,37 @@
+.inputRow {
+  border: var(--color-grey) 1px solid !important;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 0px 8px;
+  position: relative;
+}
+.inputRowActive, .inputRow:focus {
+  border: var(--color-twitter) 2px solid !important;
+}
+.input {
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	font-size: 19px;
+	padding: 20px 0px 10px;
+	width: 100%;
+	outline: 0;
+}
+.inputLabel {
+  color: var(--color-grey);
+  font-size: 16x;
+  position: absolute;
+  transform-origin: top left;
+  transition: all 0.1s ease-in-out;
+  padding-bottom: 5px;
+
+}
+.inputLabel {
+  transform: translate(0, 14px) scale(1);
+  padding-bottom: 5px;
+}
+.inputLabelActive, .inputLabelActive:focus  {
+	color: var(--color-twitter);
+	outline: none;
+  transform: translate(0, 4px) scale(0.75);
+}
