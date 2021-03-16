@@ -1,0 +1,157 @@
+:root {
+  --color-point: #5b7083 !important;
+  --color-twitter: #1da1f2 !important;
+  --color-white: #fff !important;
+  --color-black: #000 !important;
+}
+
+
+/* Light Mode */
+
+@media (prefers-color-scheme: Light) {
+  :root {
+    --color-light: #fff !important;
+    --color-secondary: #000 !important;
+    --color-danger: #e0245e !important;
+    --color-grey: #8899a6 !important;
+    --color-dark-grey: #5b7083 !important;
+    --color-btn-filled: #fff !important;
+  }
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: Dark) {
+  :root {
+    --color-dark: #15202b !important;
+    --color-secondary: #fff !important;
+    --color-danger: #e0245e !important;
+    --color-grey: #8899a6 !important;
+    --color-dark-grey: #5b7083 !important;
+  }
+}
+/* Light Mode */
+
+@media (prefers-color-scheme: Light) {
+  .MuiInputLabel-root {
+    color: #000 !important;
+  }
+  .Mui-focused {
+    color: #1da1f2 !important;
+  }
+  .MuiInputLabel-asterisk {
+    display: none !important;
+  }
+  input {
+    color: #000 !important;
+  }
+  svg.prefix__r-13gxpu9.prefix__r-4qtqp9.prefix__r-yyyyoo.prefix__r-1n7nint.prefix__r-10m99ii.prefix__r-u8s1d.prefix__r-1n2wx2z.prefix__r-1plcrui.prefix__r-1l2rav9.prefix__r-lrvibr {
+    fill: #1da1f2;
+  }
+  .col2 {
+    background-color: #fff !important;
+    flex-direction: column !important;
+  }
+
+  svg.Logo2 {
+    width: 65%;
+    padding: 0 0 15% 15%;
+    height: 100vh;
+    border-color: #1da1f2;
+    display: inline;
+    fill: #fff !important;
+  }
+  span.loginText {
+    color: #1da1f2 !important;
+  }
+  a.login {
+    text-decoration: none;
+  }
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: Dark) {
+  input {
+    color: #fff !important;
+  }
+  .MuiInputLabel-root {
+    color: #6e767d !important;
+  }
+  .Mui-focused {
+    color: #1da1f2 !important;
+  }
+  .MuiInputLabel-asterisk {
+    display: none !important;
+  }
+  svg.prefix__r-13gxpu9.prefix__r-4qtqp9.prefix__r-yyyyoo.prefix__r-1n7nint.prefix__r-10m99ii.prefix__r-u8s1d.prefix__r-1n2wx2z.prefix__r-1plcrui.prefix__r-1l2rav9.prefix__r-lrvibr {
+    fill: #fff;
+  }
+  html {
+    background-color: #15202b;
+    overflow-y: hidden;
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    color: #e0245e !important;
+    margin-left: 5px !important;
+    margin-top: 2px !important;
+  }
+
+  a.signup,
+  a.login,
+  span.signupText {
+    text-decoration: none !important;
+  }
+
+  .menu {
+    width: -webkit-fill-available;
+  }
+  .col2 {
+    flex-direction: inherit !important;
+  }
+  .menu {
+    padding-top: 25vh !important;
+  }
+
+  svg.Logo2 {
+    width: 65%;
+    padding: 0 0 15% 15%;
+    height: 100vh;
+    border-color: #1da1f2;
+    display: inline;
+    fill: #fff !important;
+  }
+}
+
+@media (min-width: 0) and (max-width: 700px) {
+  .menu {
+    padding-top: 0vh !important;
+    height: -webkit-fill-available !important;
+  }
+}
+
+a,
+span {
+  text-decoration: none;
+}
+
+
+
+@media (prefers-color-scheme: Light) {
+  :root {
+    --color-media: #000 !important;
+    --color-media-background: #FFF !important;
+    --color-text: #000 !important;
+
+  }
+}
+
+@media (prefers-color-scheme: Dark) {
+  :root {
+    --color-media: #fff !important;
+    --color-media-background: #15202b !important;
+    --color-text: #FFF !important;
+
+  }
+}

@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  background-color: var(--color-background);
+  height: 100vh;
+}
+
+.panel {
+  width: 100%;
+  margin: 20px auto 0;
+  max-width: 400px;
+  padding: 0px 15px;
+}
+
+.panelHeader {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px;
+}
+
+.panelHeaderText {
+  color: var(--color-text);
+  display: inline;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39.375px;
+  font-family: Chirp, Verdana, System;
+  margin-top: 36px;
+}
+.inputs {
+  padding: 0px 15px;
+}
+
+.loginBtn {
+  background-color: #1da1f2;
+  border-color: #000000;
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+/* Light Mode */
+
+@media (prefers-color-scheme: Light) {
+  .login-span {
+    color: var(--color-white);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+  .loginText {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: auto;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: Dark) {
+  .loginText {
+    color: var(--color-twitter);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+  .login-span {
+    color: var(--color-white);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: auto;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.loginLinks {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.link {
+  color: #1b95e0;
+}
+
+.point {
+  color: var(--color-point);
+  margin: 5px;
+  position: relative;
+  top: -3px;
+}
+
+.btn-login {
+  background-color: var(--color-twitter);
+  border: 1px solid #0000;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  color: var(--color-);
+  cursor: pointer;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: 15px;
+  padding: 0px 32px;
+  height: 0px;
+  min-height: 40px;
+  min-width: calc(77.28px);
+  outline: none;
+  position: relative;
+  transition-duration: 0.2s;
+  transition-property: background-color, box-shadow;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 0;
+  width: 100%;
+  margin-top: 15px;
+  height: 45px;
+}
+
+
+.MuiInputLabel-root.Focused {
+  color:  #000 !important;
+}
